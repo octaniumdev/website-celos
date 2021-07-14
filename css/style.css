@@ -82,6 +82,14 @@ h1 {
 
 /* Mobile optimisations */
 
+/* Fix images bug (if on desktop-sized screen, don't display)*/
+@media screen and (min-width: 1027px) {
+  .mob {
+    display: none;
+  }
+
+}
+
 @media only screen and (max-width: 1026px) {
   .hide {
     display: none;
