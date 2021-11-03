@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
     layout: "layouts/main.njk";
 
     eleventyConfig.addPassthroughCopy('assets');
+    eleventyConfig.addPassthroughCopy('css');
 
     return {
       dir: {
