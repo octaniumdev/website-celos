@@ -1,0 +1,27 @@
+{
+  "name": "cobweb_aclevo_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "clean": "rm -rf _site",
+    "build": "npm-run-all sass --parallel build:*",
+    "start": "DEBUG=Eleventy* npm-run-all sass --parallel watch:*",
+    "sass": "sass --style=compressed assets/scss/main.scss assets/css/style.css",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "npm run sass -- --watch",
+    "build:eleventy": "eleventy",
+    "build:sass": "npm run sass",
+    "prestart": "npm run clean",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [],
+  "author": "Adam Salt, Reasonably Selenium, Cob:web-Aclevo",
+  "license": "GPL3",
+  "dependencies": {
+    "sass": "^1.43.3"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
