@@ -1,0 +1,164 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+      @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+          }
+      }
+      
+/* Custom navbar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7d5ad4;
+  height: auto;
+}
+
+hr {
+  color: #7251c7;
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 150ms
+}
+
+a:hover {
+  color: white;
+  opacity: 0.5;
+  transition: 150ms
+}
+
+.active {
+  text-decoration: underline;
+}
+
+/* About us */
+.aboutus {
+  width: 60%;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* FOSSHOST a class */
+
+.aclass {
+  color: #6c757d;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.aclass:hover {
+  color: black;
+  opacity: 0.7;
+  transition: 150ms;
+}
+
+.aclass-black {
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.aclass-black:hover {
+  color: black;
+  opacity: 0.7;
+  transition: 150ms;
+}
+
+/* Custom columns */
+
+.cus-col-5 {width: 41.66%;}
+.cus-col-7 {width: 58.33%;}
+
+/* Mobile optimisations */
+
+/* Fix images bug (if on desktop-sized screen, don't display)*/
+@media screen and (min-width: 1027px) {
+  .mob {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1026px) {
+  .hide {
+    display: none;
+  }
+
+  li {
+    font-size: 1.5vh;
+  }
+
+  .left {
+    text-align: right;
+  }
+
+  .aboutus {
+    width: 80%;
+  }
+
+  p, h1 {
+    margin: 10px;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .cus-col-5 {
+    width: 100%;
+  }
+
+  .cus-col-7 {
+    width: 100%;
+  }
+
+}
+
+/* Align left */
+
+.left {
+  text-align: left !important;
+}
+
+/* Table */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
