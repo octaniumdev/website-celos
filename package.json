@@ -1,7 +1,7 @@
 {
   "name": "cobweb_aclevo_website",
   "version": "1.0.0",
-  "description": "",
+  "description": "The GitHub pages repository for the CelOS web-page. https://celos.cobweb-aclevo.org",
   "main": ".eleventy.js",
   "scripts": {
     "clean": "rm -rf _site",
@@ -19,9 +19,22 @@
   "author": "Adam Salt, Reasonably Selenium, Cob:web-Aclevo",
   "license": "GPL3",
   "dependencies": {
+    "package.json": "^2.0.1",
     "sass": "^1.43.3"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
     "npm-run-all": "^4.1.5"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cobweb-Aclevo/website-celos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cobweb-Aclevo/website-celos/issues"
+  },
+  "homepage": "https://github.com/Cobweb-Aclevo/website-celos#readme"
 }
